@@ -1,0 +1,77 @@
+/* Gaya umum */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Judul dan subjudul */
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color: #f5c16c;
+}
+
+.subtitle1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: #f9e4bc;
+}
+
+.subtitle2 {
+    text-align: center;
+    font-size: 1rem;
+    color: #cccccc;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* Tabel utama */
+.content-table {
+    border-collapse: collapse;
+    margin: 0 auto 40px auto;
+    font-size: 1rem;
+    min-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #3a3a3a;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+.content-table th {
+    background-color: #f5c16c;
+    color: #000;
+}
+
+.content-table tr:nth-child(even) {
+    background-color: #444;
+}
+
+.content-table tr:hover {
+    background-color: #555;
+}
+
+/* Gambar dalam tabel */
+.content-table img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
